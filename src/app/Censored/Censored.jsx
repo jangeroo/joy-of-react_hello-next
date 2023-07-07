@@ -7,9 +7,10 @@ export default function Censored({ children }) {
   const [isCensored, setIsCensored] = React.useState(true);
   return (
     <button
-      className={`${styles.unstyled} ${
-        isCensored ? styles.censored : undefined
-      }`}
+      className={`
+        ${styles.unstyled}
+        ${isCensored ? styles.censored : undefined}
+      `}
       onClick={() => setIsCensored(!isCensored)}
     >
       {children}
