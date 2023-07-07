@@ -1,0 +1,7 @@
+.unstyled {
+  all: unset;
+}
+
+.censored {
+  background-color: black;
+}
